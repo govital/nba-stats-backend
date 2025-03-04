@@ -125,13 +125,6 @@ docker build -t nba-stats-backend .
 docker run -p 8080:8080 nba-stats-backend
 ```
 
-## Contributing
-
-1. Fork the repo.
-2. Create a new branch.
-3. Commit changes.
-4. Push to GitHub and create a PR.
-
 ## License
 
 MIT License
