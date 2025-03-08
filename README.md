@@ -59,6 +59,11 @@ https://github.com/govital/nba-stats-backend.git
 cd nba-stats-backend
 ```
 
+##### Build the project:
+```sh
+mvn clean package
+```
+
 ##### Start with Docker:
 ```sh
 docker-compose up --build
