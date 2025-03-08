@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS players (
+     id INT AUTO_INCREMENT PRIMARY KEY,
+     name VARCHAR(255) NOT NULL,
+     team_id INT,
+     FOREIGN KEY (team_id) REFERENCES teams(id) ON DELETE SET NULL
+);
